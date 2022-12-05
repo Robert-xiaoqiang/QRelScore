@@ -4,9 +4,7 @@ import six
 from six.moves import map
 
 from .bleu.bleu import Bleu
-from .meteor.meteor import Meteor
 from .rouge.rouge import Rouge
-
 
 # str/unicode stripping in Python 2 and 3 instead of `str.strip`.
 def _strip(s):
